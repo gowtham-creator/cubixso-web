@@ -1,8 +1,16 @@
 import Image from "next/image";
+import { Metadata } from "next";
+import teamMembers from "./teamMembers";
+import MemberCard from "./teamMemberCard";
 
+export const metadata: Metadata = {
+  title: "About Us - Cubisxo",
+  description: "This is About Us page for Cubixso",
+  // other metadata
+};
 const AboutUs = () => {
   return (
-    <section>
+    <section className="mb-4">
       <div className="relative w-full">
         <Image
           src="/images/about/aboutbg.png"
@@ -16,7 +24,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="px-4 mx-auto text-center max-w-c-1315 md:px-8">
-        <div className="mt-6 grid grid-cols-1 gap-7.5 md:grid-cols-[3fr_2fr] lg:mt-16 xl:mt-20 xl:gap-12.5">
+        <div className="mt-6 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-16 lg:grid-cols-[3fr_2fr] xl:mt-20 xl:gap-12.5">
           <div className="w-full text-left">
             <div className="mb-4 inline-block rounded-full py-1.5">
               <span className="font-medium text-black text-sectiontitle dark:text-white">
@@ -34,12 +42,43 @@ const AboutUs = () => {
               efficiency and growth.
             </p>
           </div>
-          <div className="w-full bg-gray-300">Right Content</div>
-          <div className="w-full bg-gray-200">Left Content</div>
-          <div className="w-full bg-gray-300">Right Content</div>
+          <div className="relative min-h-[250px] w-full">
+            <Image
+              src="/images/about/aboutbg.png"
+              alt="About Cubixso Solutions"
+              fill={true}
+              className="object-cover"
+            />
+          </div>
+          <div className="relative min-h-[250px] w-full">
+            <Image
+              src="/images/about/aboutbg.png"
+              alt="About Cubixso Solutions"
+              fill={true}
+              className="object-cover"
+            />
+          </div>
+          <div className="relative min-h-[250px] w-full">
+            <Image
+              src="/images/about/aboutbg.png"
+              alt="About Cubixso Solutions"
+              fill={true}
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="mt-6 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-16 xl:mt-20 xl:gap-12.5">
-          <div className="w-full bg-gray-300">Left Content</div>
+          <div className="flex justify-center w-full">
+            <div className="relative h-[200px] w-[200px] md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[300px] xl:h-[350px] xl:w-[350px]">
+              <Image
+                src="/images/about/aboutbg.png"
+                alt="About Cubixso Solutions"
+                fill={true}
+                className="object-cover rounded-lg"
+                style={{ boxShadow: "40px 30px 0px 0px #fe4816" }}
+              />
+            </div>
+          </div>
           <div className="w-full text-left">
             <div className="mb-4 inline-block rounded-full py-1.5">
               <span className="font-medium text-black text-sectiontitle dark:text-white">
@@ -55,18 +94,25 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-between mt-6 lg:mt-16 xl:mt-20">
-          <div className="w-2/5 text-left">
-            <div className="mb-4 inline-block rounded-full py-1.5">
-              <span className="font-medium text-black text-sectiontitle dark:text-white">
-                Our Team
-              </span>
+        <div>
+          <div className="flex flex-row justify-between mt-6 lg:mt-16 xl:mt-20">
+            <div className="w-2/5 text-left">
+              <div className="mb-4 inline-block rounded-full py-1.5">
+                <span className="font-medium text-black text-sectiontitle dark:text-white">
+                  Our Team
+                </span>
+              </div>
+              <h2 className="mb-4 text-3xl font-bold text-black b-4 dark:text-white xl:text-sectiontitle3">
+                Awesome Team Members
+              </h2>
             </div>
-            <h2 className="mb-4 text-3xl font-bold text-black b-4 dark:text-white xl:text-sectiontitle3">
-              Awesome Team Members
-            </h2>
+            {/* <div>Arrows</div> */}
           </div>
-          <div>Arrows</div>
+          <div className="flex flex-col justify-center gap-4 md:flex-row">
+            {teamMembers.map((deets, key) => (
+              <MemberCard member={deets} key={key} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

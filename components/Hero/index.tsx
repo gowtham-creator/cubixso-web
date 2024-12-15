@@ -45,9 +45,9 @@ const Hero = () => {
                   </div>
                 </form>
 
-                <p className="mt-5 text-black dark:text-white">
+                {/* <p className="mt-5 text-black dark:text-white">
                   Try for free no credit card required.
-                </p>
+                </p> */}
               </div>
             </div>
 

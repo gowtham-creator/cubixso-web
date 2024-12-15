@@ -1,6 +1,13 @@
 import Image from "next/image";
 import servicesData from "./servicesData";
 import SingleService from "./SingleService";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Services - Cubisxo",
+  description: "This is Services page for Cubixso",
+  // other metadata
+};
 
 const Services = () => {
   return (
@@ -9,10 +16,10 @@ const Services = () => {
       className="pb-20 overflow-hidden pt-35 md:pt-40 xl:pb-25 xl:pt-46"
     >
       <div className="px-4 mx-auto max-w-c-1315 md:px-8 xl:px-0">
-        <div className="flex items-center justify-center rounded-md bg-[#b8ff65] p-10">
+        <div className="flex items-center justify-center p-10 rounded-md bg-primary">
           <div className="flex flex-col justify-center">
             <p className="p-1 text-3xl font-bold text-[#0d1f3b]">Services</p>
-            <p className="text-center">Home &gt; Services</p>
+            <p className="text-center text-white">Home &gt; Services</p>
           </div>
         </div>
         <div className="mx-auto mt-10 text-center">

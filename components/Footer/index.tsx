@@ -5,8 +5,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white border-t border-stroke dark:border-strokedark dark:bg-blacksection">
-        <div className="px-4 mx-auto max-w-c-1390 md:px-8 2xl:px-0">
+      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-20 lg:py-25">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
@@ -26,10 +26,10 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="w-1/2 animate_top lg:w-1/4"
+                className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative">
-                  <Image
+                  {/* <Image
                     width={110}
                     height={80}
                     src="/images/logo/logo-light.svg"
@@ -42,12 +42,15 @@ const Footer = () => {
                     src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="hidden dark:block"
-                  />
+                  /> */}
+                  <div className="${inter.className} text-2xl font-extrabold text-black dark:text-white">
+                    CUBIXSO
+                  </div>
                 </a>
 
-                <p className="mt-5 mb-10">
+                <p className="mb-10 mt-5">
                   Where Innovation Meets Execution
-                  <br/>
+                  <br />
                   Leading the Future with Technology
                 </p>
 
@@ -56,13 +59,13 @@ const Footer = () => {
                 </p>
                 <a
                   href="#"
-                  className="font-medium text-black text-itemtitle dark:text-white"
+                  className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   contact@cubixso.com
                 </a>
               </motion.div>
 
-              <div className="flex flex-col w-full gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 lg:justify-end xl:w-7/12">
+              <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 lg:justify-end xl:w-7/12">
                 <motion.div
                   variants={{
                     hidden: {
@@ -81,7 +84,7 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-6 font-medium text-black text-itemtitle2 dark:text-white">
+                  <h4 className="mb-6 text-itemtitle2 font-medium text-black dark:text-white">
                     Quick Links
                   </h4>
 
@@ -89,7 +92,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="inline-block mb-3 hover:text-primary"
+                        className="mb-3 inline-block hover:text-primary"
                       >
                         About Us
                       </a>
@@ -97,7 +100,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="inline-block mb-3 hover:text-primary"
+                        className="mb-3 inline-block hover:text-primary"
                       >
                         Services
                       </a>
@@ -105,7 +108,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="inline-block mb-3 hover:text-primary"
+                        className="mb-3 inline-block hover:text-primary"
                       >
                         Products
                       </a>
@@ -113,7 +116,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="inline-block mb-3 hover:text-primary"
+                        className="mb-3 inline-block hover:text-primary"
                       >
                         Contact
                       </a>

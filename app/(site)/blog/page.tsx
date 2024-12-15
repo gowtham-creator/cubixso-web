@@ -3,8 +3,8 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-  description: "This is Blog page for Solid Pro",
+  title: "Blog Page - Cubixso",
+  description: "This is Blog page for Cubixso",
   // other metadata
 };
 
@@ -13,7 +13,7 @@ const BlogPage = async () => {
     <>
       {/* <!-- ===== Blog Grid Start ===== --> */}
       <section className="py-20 lg:py-25 xl:py-30">
-        <div className="mx-auto mt-15 max-w-c-1280 px-4 md:px-8 xl:mt-20 xl:px-0">
+        <div className="px-4 mx-auto mt-15 max-w-c-1280 md:px-8 xl:mt-20 xl:px-0">
           <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
             {BlogData.map((post, key) => (
               <BlogItem key={key} blog={post} />

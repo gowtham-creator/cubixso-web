@@ -22,13 +22,13 @@ const featuresData: Feature[] = [
     description:
       "Maximize ROI with data-driven strategies.",
   },
-  {
-    id: 4,
-    icon: "/images/icon/icon-04.svg",
-    title: "HealthTech & EdTech",
-    description:
-      "Innovating healthcare and education with technology.",
-  },
+  // {
+  //   id: 4,
+  //   icon: "/images/icon/icon-04.svg",
+  //   title: "HealthTech & EdTech",
+  //   description:
+  //     "Innovating healthcare and education with technology.",
+  // },
   // {
   //   id: 5,
   //   icon: "/images/icon/icon-05.svg",

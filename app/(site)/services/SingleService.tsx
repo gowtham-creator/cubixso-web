@@ -17,10 +17,10 @@ const SingleService = ({ service }: { service: Service }) => {
           {title}
         </h3>
         <p>{description}</p>
-        <p>Key Services:</p>
-        <ul className="list-disc pl-4">
+        <p className="mt-2 font-semibold">Key Services:</p>
+        <ul className="pl-4 list-disc ">
           {services.map((service, key) => (
-            <li key={key}>{service}</li>
+            <li className="mt-2 leading-tight" key={key}>{service}</li>
           ))}
         </ul>
       </div>
