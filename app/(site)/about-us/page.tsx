@@ -50,22 +50,8 @@ const AboutUs = () => {
               className="object-cover"
             />
           </div>
-          <div className="relative min-h-[250px] w-full">
-            <Image
-              src="/images/about/aboutbg.png"
-              alt="About Cubixso Solutions"
-              fill={true}
-              className="object-cover"
-            />
-          </div>
-          <div className="relative min-h-[250px] w-full">
-            <Image
-              src="/images/about/aboutbg.png"
-              alt="About Cubixso Solutions"
-              fill={true}
-              className="object-cover"
-            />
-          </div>
+
+
         </div>
         <div className="mt-6 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-16 xl:mt-20 xl:gap-12.5">
           <div className="flex justify-center w-full">
@@ -108,7 +94,7 @@ const AboutUs = () => {
             </div>
             {/* <div>Arrows</div> */}
           </div>
-          <div className="flex flex-col justify-center gap-4 md:flex-row">
+          <div className="flex flex-col justify-between gap-4 md:flex-row">
             {teamMembers.map((deets, key) => (
               <MemberCard member={deets} key={key} />
             ))}

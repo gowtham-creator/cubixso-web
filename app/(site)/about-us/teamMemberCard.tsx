@@ -6,7 +6,7 @@ import Link from "next/link";
 const MemberCard = ({ member }: { member: Member }) => {
   const { name, title, image, link } = member;
   return (
-    <Link className="relative h-[400px] w-[300px]" href={link ? link : ""}>
+    <Link className="relative h-[300px] w-[300px]" href={link ? link : ""}>
       <Image
         src={image}
         alt="404"
