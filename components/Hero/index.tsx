@@ -74,7 +74,7 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative rounded-md overflow-hidden aspect-[700/544] w-full">
+                <div className=" relative rounded-md overflow-hidden aspect-[700/444] w-full">
                   <Image
                     className=" dark:hidden"
                     src="/images/hero/hero-light.svg"
@@ -82,7 +82,7 @@ const Hero = () => {
                     fill
                   />
                   <Image
-                    className="hidden rounded-md overflow-hidden shadow-solid-l aspect-[700/544] dark:block"
+                    className="hidden rounded-md overflow-hidden shadow-solid-l aspect-[700/444] dark:block"
                     src="/images/hero/hero-dark.svg"
                     alt="Hero"
                     fill

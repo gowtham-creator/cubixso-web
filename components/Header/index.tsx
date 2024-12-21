@@ -100,7 +100,7 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`invisible h-0 w-full items-center justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
+          className={`invisible h-0 w-full items-center justify-end xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
@@ -154,7 +154,7 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="flex items-center gap-6 mt-7 xl:mt-0">
+          {/* <div className="flex items-center gap-6 mt-7 xl:mt-0">
             <ThemeToggler />
 
             <Link
@@ -163,7 +163,7 @@ const Header = () => {
             >
               Contact Us
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
