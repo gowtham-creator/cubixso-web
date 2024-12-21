@@ -18,7 +18,7 @@ const Services = () => {
       <div className="px-4 mx-auto max-w-c-1315 md:px-8 xl:px-0">
         <div className="flex items-center justify-center p-10 rounded-md bg-primary">
           <div className="flex flex-col justify-center">
-            <p className="p-1 text-3xl font-bold text-[#0d1f3b]">Services</p>
+            <p className="p-1 text-3xl font-bold text-white">Services</p>
             <p className="text-center text-white">Home &gt; Services</p>
           </div>
         </div>

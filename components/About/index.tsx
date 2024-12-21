@@ -73,11 +73,10 @@ const About = () => {
                 </span>
               </h2>
               <p>
-                Cubixso Solutions is your partner in digital innovation,
-                delivering tailored solutions that drive growth and efficiency.
+              Cubixso Solutions is your trusted partner in digital transformation, offering customized solutions designed to accelerate growth and enhance efficiency.
               </p>
 
-              <div className="mt-7.5 flex items-center gap-5">
+              <div className="mt-7.5 flex items-start gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="font-semibold text-black text-metatitle2 dark:text-white">
                     01
@@ -85,15 +84,14 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    A Leader in Digital Transformation
+                  Driving Digital Transformation and excellence
                   </h3>
                   <p>
-                    Specialized services in AI, cloud, web and mobile app
-                    development.
+                  Expertise in AI, cloud solutions, and web & mobile application development to empower your business.
                   </p>
                 </div>
               </div>
-              <div className="mt-7.5 flex items-center gap-5">
+              <div className="mt-7.5 flex items-start gap-5">
                 <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                   <p className="font-semibold text-black text-metatitle2 dark:text-white">
                     02

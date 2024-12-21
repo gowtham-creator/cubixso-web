@@ -3,27 +3,19 @@ import { FeatureTab } from "@/types/featureTab";
 const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Advanced digital tools transforming healthcare.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    title: "Empowering Student Connections and Innovation",
+    desc1: "SLiYP eases the pain of student disconnection in academia. It enables students to forge meaningful connections, fostering collaboration and creativity within an academic environment.",
+    desc2: "By seamlessly connecting students, SLiYP enhances academic support and nurtures a vibrant community. Invest in this transformative journey and redefine the student experience.",
+    image: "/images/sliyp.jpg",
+    imageDark: "/images/sliyp.jpg",
   },
   {
     id: "tabTwo",
-    title: "Innovative solutions enhancing education.",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
-  },
-  {
-    id: "tabThree",
-    title: "Functional Blog, DB, Auth and Many More",
-    desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
-    desc2: `Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    title: "Your Companion in Mental Well-being",
+    desc1: "Ava is a one-stop platform designed to support all your mental health needs. Offering personalized resources, therapy options, and self-care tools, Ava places companionship at the core of your mental wellness journey.",
+    desc2: "Whether you seek professional guidance or simply a listening ear, Ava provides a safe and supportive environment, ensuring you never feel alone in your mental health journey. Empower your well-being with Ava's comprehensive care.",
+    image: "/images/ava.jpg",
+    imageDark: "/images/ava.jpg",
   },
 ];
 

@@ -16,14 +16,14 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h1 className="pr-16 mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Empowering Businesses with Digital Innovation
+              Where Innovation Takes Flight 
                 {/* <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   SaaS
                 </span> */}
               </h1>
               <p>
-                AI, Cloud, Web & App Development, and Performance Marketing
-                Services
+              Transforming vision into digital reality with solutions that empower and push boundaries.
+              We provide cutting-edge services in AI, Cloud Solutions, Enterprise Application Development, and Performance Marketing.
               </p>
 
               <div className="mt-10">
@@ -74,15 +74,15 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative aspect-[700/444] w-full">
+                <div className=" relative rounded-md overflow-hidden aspect-[700/544] w-full">
                   <Image
-                    className="shadow-solid-l dark:hidden"
+                    className=" dark:hidden"
                     src="/images/hero/hero-light.svg"
                     alt="Hero"
                     fill
                   />
                   <Image
-                    className="hidden shadow-solid-l dark:block"
+                    className="hidden rounded-md overflow-hidden shadow-solid-l aspect-[700/544] dark:block"
                     src="/images/hero/hero-dark.svg"
                     alt="Hero"
                     fill

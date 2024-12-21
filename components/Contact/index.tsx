@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="contact" className="px-4 md:px-8 2xl:px-0">
+      <section id="contact" className="px-4 md:px-8 2xl:px-0 mb-11">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -60,10 +60,7 @@ const Contact = () => {
                 Send a message
               </h2>
 
-              <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
-              >
+              <form action="https://formbold.com/s/oe5n4" method='POST'>
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"

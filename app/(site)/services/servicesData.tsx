@@ -4,14 +4,16 @@ const servicesData: Service[] = [
   {
     id: 1,
     icon: "/images/icon/icon-04.svg",
-    title: "Generative AI Solutions",
+    title: "Generative AI Solutions Suite",
     description:
-      "Harness the transformative power of Generative AI to streamline operations, enhance creativity, and drive business efficiency. We provide AI-driven tools and models to address unique business challenges and optimize decision-making.",
+      "Revolutionize your business operations with our state-of-the-art generative AI services. From custom model development to intelligent automation, we offer a comprehensive suite of AI solutions designed to enhance creativity, streamline workflows, and drive innovation.",
     services: [
-      "AI-driven content generation and automation",
-      "Predictive analytics for data-driven decision-making",
-      "Advanced chatbot and virtual assistant development",
-      "Integration of AI into business workflows to improve efficiency and reduce costs",
+      "Custom AI model development for NLP, computer vision, and domain-specific needs",
+      "AI-powered content creation for blogs, ads, visuals, and scalable workflows",
+      "Intelligent automation including chatbots, predictive analytics, and task automation",
+      "Seamless AI integration into enterprise systems and existing platforms",
+      "Conversational AI solutions with chatbots, virtual assistants, and NLP capabilities",
+      "AI analytics for predictive modeling, real-time insights, and data visualization",
     ],
   },
   {
@@ -19,12 +21,12 @@ const servicesData: Service[] = [
     icon: "/images/icon/icon-05.svg",
     title: "Full-Stack Development",
     description:
-      "We offer end-to-end web and application development services, ensuring seamless integration of front-end and back-end technologies to create robust, scalable solutions.",
+      "Empower your business with comprehensive full-stack development services. We deliver dynamic, responsive, and secure web and application solutions by seamlessly integrating front-end and back-end technologies to meet your unique requirements.",
     services: [
-      "Development of responsive and interactive web applications",
-      "API development and integration for seamless connectivity",
-      "Secure and scalable back-end architecture",
-      "Proficiency in modern frameworks like Node.js, React.js, and Angular",
+      "Design and development of responsive, interactive, and user-friendly web applications",
+      "Custom API development and integration for enhanced system interoperability",
+      "Robust and secure back-end architecture optimized for scalability and performance",
+      "Expertise in modern frameworks and technologies, including Node.js, React.js, and Angular",
     ],
   },
   {

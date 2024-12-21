@@ -6,21 +6,21 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-01.svg",
     title: "AI & Cloud",
     description:
-      "Automate and scale with AI-driven solutions.",
+      "Seamlessly integrate AI capabilities into your existing systems. Our expertise ensures smooth implementation of AI technologies across your business infrastructure.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "Web & Mobile Development",
+    title: "Enterprise application Development",
     description:
-      "Engage your audience with robust digital platforms.",
+      "Build dynamic and scalable digital platforms to captivate and engage your audience effectively.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
     title: "Performance Marketing",
     description:
-      "Maximize ROI with data-driven strategies.",
+      "Achieve higher ROI with strategic, data-driven marketing campaigns tailored to your goals.",
   },
   // {
   //   id: 4,

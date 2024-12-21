@@ -24,14 +24,8 @@ const Brands = () => {
             }}
             modules={[Autoplay]}
             breakpoints={{
-              // when window width is >= 640px
-              0: {
-                slidesPerView: 3,
-              },
-              // when window width is >= 768px
-              768: {
-                slidesPerView: 5,
-              },
+              0: { slidesPerView: 3 },
+              768: { slidesPerView: 5 },
             }}
           >
             {brandData.map((brand) => (
@@ -40,11 +34,6 @@ const Brands = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          {/* <div className="grid grid-cols-3 items-center justify-center gap-7.5 md:grid-cols-6 lg:gap-12.5 xl:gap-29">
-            {brandData.map((brand, key) => (
-              <SingleBrand brand={brand} key={key} />
-            ))}
-          </div> */}
         </div>
       </section>
       {/* <!-- ===== Clients End ===== --> */}

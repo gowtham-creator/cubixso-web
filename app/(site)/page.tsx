@@ -10,7 +10,7 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
-import Blog from "@/components/Blog";
+import Blog from "@/components/Blog-for-future";
 import Testimonial from "@/components/Testimonial";
 import Services from "@/components/Services";
 
@@ -35,7 +35,7 @@ export default function Home() {
       <Testimonial />
       {/* <Pricing /> */}
       <Contact />
-      <Blog />
+      {/* <Blog /> */}
     </main>
   );
 }
