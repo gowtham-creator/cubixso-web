@@ -54,7 +54,7 @@ const Header = () => {
             />
           </a> */}
           <Link href={"/"}>
-            <div className="${inter.className} text-black dark:text-white text-2xl font-extrabold">CUBIXSO</div>
+            <div className="${inter.className} text-black dark:text-white text-2xl font-montserrat font-extrabold">CUBIXSO</div>
           </Link>
 
           {/* <!-- Hamburger Toggle BTN --> */}

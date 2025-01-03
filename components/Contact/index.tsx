@@ -188,14 +188,14 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+91-XXXXXXXXXX</a>
+                  <a href="#">+91-8374563012</a>
                 </p>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 font-medium text-black text-metatitle3 dark:text-white">
                   Our Loaction
                 </h3>
-                <p>[Physical Address]</p>
+                <p>T-hub Phase 2, Raidurgam, Hyderabad.</p>
               </div>
               <div>
                 <h3 className="mb-4 font-medium text-black text-metatitle3 dark:text-white">

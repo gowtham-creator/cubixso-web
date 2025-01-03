@@ -65,7 +65,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Cubixso. All rights reserved
+                &copy; {new Date().getFullYear()} Cubixso Solutions Pvt Ltd. All Rights Reserved
               </p>
             </motion.div>
 

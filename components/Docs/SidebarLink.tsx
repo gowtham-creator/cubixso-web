@@ -15,19 +15,19 @@ const SidebarLink = () => {
           href={`/docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
-          Bootstrap Template Guide
+          Terms and Conditions
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
-          Style Guide
+          Privacy Policy 
         </Link>
         <Link
           href={`/docs`}
           className={`flex w-full rounded-sm px-3 py-2 text-base text-black dark:text-white `}
         >
-          Using Tailwind Components
+          Support
         </Link>
       </li>
     </>
